@@ -1,0 +1,134 @@
+    
+    .container {
+      margin: 0 auto;
+    }
+    header {
+      background: #454f6f;
+      height: 70px;
+      width: 100%;
+      background-color: hsl(239, 75%, 62%);
+      position: relative;
+    } 
+    .header-title {
+      display: inline;
+    }
+    .header-title h1 {
+      display: inline;
+      font-size: 22px;
+      color: white;
+      padding: 50px 30px 50px 80px;
+  
+    }
+    
+    nav {
+      display: inline;
+      float: right;
+      font-size: 18px;
+      padding: 19px 33px 13px 20px;
+    }
+    nav  a {
+      display: inline-block;
+      color: white;
+    }
+    
+    
+  
+    header nav a {
+      margin-left: 20px;
+      font-size: 18px;
+    }
+    
+    header nav a:first-child {
+      margin-left: 0;
+    }
+    header nav a {
+      margin-left: 20px;
+      font-size: 18px;
+      
+    }
+    
+    header nav a:first-child {
+      margin-left: 0;
+    } 
+
+  main {
+    padding: 32px;
+  }
+  .amin {
+    padding: 40px;
+    background: #efefef;
+  }
+  
+  .amin h2 {
+    text-align: center;
+  }
+
+  .article {
+    width: 100%;
+  }
+  .article .inner {
+    display: inline;
+    width: 50%;
+    display: table-cell;
+    padding: 30px;
+  }
+  .article .inner h3{
+    text-align: center;
+  }
+
+  .moha {
+    width: 100%;
+  }
+  .moha .inner-one {
+    display: inline;
+  width: 50%;
+    display: table-cell;
+    padding: 30px;
+  }
+  .moha .article-one h3 {
+    text-align: center;
+  }
+
+  footer {
+    background: hsl(239, 75%, 62%);
+    padding: 50px 30px 50px 80px;
+    height: 50px;
+      width: 100%;
+      position: relative;
+  }
+  footer .footer-item {
+    display: table-cell;
+    width: 50%;
+    border: 0;
+    padding: 30px;
+    padding-bottom: 20px;
+  }
+  footer .footer-item a{
+    padding-left: 25px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    float: rights;
+  }
+  footer .footer-item h1 {
+    color: white;
+  }
+  .footer-item div {
+    display: inline;
+  }
+  .para p {
+    background: #454f6f;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(155, 37, 37);
+    position: relative;
+    padding: 30px 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+  @media(max-width: 500px) {
+    .container {
+      width: 500px;
+      background: gray;
+    }
